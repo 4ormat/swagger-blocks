@@ -249,8 +249,8 @@ module Swagger
         @data ||= {}
       end
 
-      def keys(values)
-        self.data.merge!(values) if values
+      def keys(data)
+        self.data.merge!(data) if data
       end
 
       def key(key, value)
